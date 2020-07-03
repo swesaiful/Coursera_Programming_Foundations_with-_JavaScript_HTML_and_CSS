@@ -1,0 +1,102 @@
+  
+table{
+    width: 400px;
+}
+
+th, caption{
+    text-align: left;
+}
+  
+table, th, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 10px;
+}
+  
+tr:nth-child(even){
+    background-color: white;
+}
+  
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.topdiv {
+    /*Styling the top "header" for my page*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: royalblue;
+    border-width: 1px;
+    padding-left: 5px;
+    font-family: Helvetica Neue LT W01_95 Black, arial-black, sans-serif;
+    text-align: center;
+    background-color: #002e5f;
+}
+
+.cleardiv {
+    /*A simple div*/
+    font-family: Verdana, Geneva, sans-serif;
+}
+    
+.boxdiv {
+    /*A blue box with rounded corners div*/
+    background-color: AliceBlue;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.boxdiv1 {
+    /*A blue box with rounded corners div*/
+    background-color: rgb(247, 255, 240);
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.boxdiv2 {
+    /*A blue box with rounded corners div*/
+    background-color: rgb(240, 248, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+.boxdiv3 {
+    /*A blue box with rounded corners div*/
+    background-color: rgb(252, 240, 255);
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}        
+
+.bottomdiv {
+    /*Styling the bottom "footer" for my page*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: royalblue;
+    border-width: 1px;
+    padding-left: 5px;
+    font-family: Helvetica Neue LT W01_95 Black, arial-black, sans-serif;
+    text-align: center;
+    background-color: #002e5f;
+}
