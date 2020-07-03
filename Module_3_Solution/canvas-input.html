@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas Input and Events</title>
+    <link rel="stylesheet" href="Module_3_Solution\canvas-input.css">
+</head>
+<body>
+
+    <canvas id="d1"></canvas>
+    <p>
+        <input type="button" value="Make Lime"
+        onclick="doLime()">
+
+        <input type="color" value="#001A57"
+        onclick="doColor()" id="clr">
+
+        <!--
+
+        <input type="color" value="#001A57"
+        onchange="doColor()" id="clr">
+
+        Here is the input tag, which you have seen before. The type for our color chooser is color. And here we have specified a default value of dark blue. This color picker element has an ID, so that we can refer to it in our JavaScript code, and represent it's input with a variable.
+        
+        Many inputs require connecting events other than mouse clicks or moves. A color chooser uses an onchange event. This may be connected to a mouse but isn't based on clicks. Just when the color chooser's value changes. This event is connected to JavaScript through the onchange event handler. -->
+    </p>
+
+    <!--Create a range or slider input-->
+    <p>
+        <input type="range" min="10" max="100"
+        value="10" id="sldr" oninput="doSquare()">
+        <!--The HTML to create this slider has an input type of range with three parameters you specify when creating the HTML element. The minimum value of the range. Here, that's 10. The maximum value of the range. Here, that's 100. And the current value when the slider is first rendered in a web page. Here that's 10, which happens to be the minimum value. So the slider will be first rendered all the way to the left.
+        
+        The ID of the input element is important for accessing its value to use in the function doSquare. When you click and drag the slider, you generate an oninput event that you can use to connect the web page with your JavaScript. -->
+        
+    </p>
+
+
+    <script src="Module_3_Solution\canvas-input.js"></script>
+
+    <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+
+</body>
+</html>
