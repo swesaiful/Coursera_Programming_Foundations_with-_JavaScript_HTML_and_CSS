@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Driven Demo</title>
+    <link rel="stylesheet" href="Module_3_Solution\event-driven.css">
+</head>
+<body>
+
+    <h1>Event Driven and Change Pages Interactively</h1>
+    
+    <div id="d1">
+        Hello
+    </div>
+    <div id="d2">
+        Goodbye
+    </div>
+    <!--
+    <p>
+        <input type="button" value="Change"
+        onclick="alert('clicked button')">
+    </p> -->
+
+    <p>
+        <input type="button" value="Change"
+        onclick="dochange()">
+        <!--onclick is an event handler and the function dochange() will be called and whatever code is in that function will be executed.-->
+
+        <input type="button" value="Message"
+        onclick="showMsg()">
+
+    </p>
+
+    <p>
+        <input type="button" value="Color Change"
+        onclick="changeColor()">
+    </p>
+    <p>
+        <input type="button" value="Change Text"
+        onclick="changeText()">
+    </p>
+    
+
+    <script src="Module_3_Solution\event-driven.js"></script>
+
+    <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+</body>
+</html>
