@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(179, 237, 245);
+    font-family: Verdana;
+    margin: 40px;
+    text-align:center;
+  }
+  
+  canvas {
+    border: 1px solid rgb(165, 220, 238);
+    height: 200px;
+    background-position: center;
+  }
+  
+  input {
+    font-size: 12pt;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  
+  p {
+    text-align:center;
+  }
