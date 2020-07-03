@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my MiniProject</title>
+    <link rel="stylesheet" href="Module_4_Solution\filter-fun.css">
+</head>
+<body>
+    <canvas id="can"></canvas>
+    
+    <h2>Please upload an image</h2>
+    <p>
+        <input type="file" multiple="false" accept="image/*" id="imgFile" onchange="uploadImage()" >
+    </p>
+
+    <h2>Choose Filter to play</h2>
+              
+    <p>
+        <input type="button" value="Rainbow" onclick="rainbowImage()" >
+
+        <input type="button" value="Grayscale" onclick="grayImage()" >
+
+        <input type="button" value="Blur" onclick="blurImage()" > 
+        
+        <input type="button" value="Red" onclick="redImage()" >
+
+        <br>
+        <br>
+
+        <input type="button" value="Window" onclick="windowImage()" >
+
+        <input type="button" value="Trigonometry Shark" onclick="trigSharkImage()" >
+
+        <input type="button" value="Reset image" onclick="resetImage()" >
+
+        <input type="button" value="Clear canvas" onclick="clearImage()" >
+    </p>
+    
+
+    <script src="Module_4_Solution\filter-fun.js"></script>
+    <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+    
+</body>
+</html>
