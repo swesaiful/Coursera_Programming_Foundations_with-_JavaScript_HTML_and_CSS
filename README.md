@@ -1,3 +1,5 @@
+![html css javascript](https://user-images.githubusercontent.com/43824133/88384497-cf0c9a00-cdac-11ea-8543-50f906e750a1.jpg)
+
 # Programming Foundations with JavaScript, HTML and CSS by Duke University on Coursera
 
 This repository contains assignment descriptions and my solutions to the assignments of this course [Programming Foundations with JavaScript, HTML and CSS](https://www.coursera.org/learn/duke-programming-web).
